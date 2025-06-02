@@ -1,0 +1,15 @@
+# Compiled class files
+*.class
+
+# IDE/Editor settings
+.idea/
+.vscode/
+*.iml
+
+# Build output
+out/
+build/
+target/
+
+# Log files
+*.log
