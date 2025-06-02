@@ -1,0 +1,13 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+public class JavaInheritance2 {
+   public JavaInheritance2() {
+   }
+
+   public static void main(String[] var0) {
+      Adder var1 = new Adder();
+      System.out.println("My superclass is: " + var1.getClass().getSuperclass().getName());
+      System.out.print(var1.add(20, 22) + " ");
+      System.out.print(var1.add(10, 3) + " ");
+      System.out.print(var1.add(11, 9));
+   }
+}

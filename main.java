@@ -1,7 +1,11 @@
-public class Main {
+class Main {
     public static void main(String[] args) {
-        // Create a Person object
-        Person person = new Person("John", 30);
-        person.greet();
+        Person person = new Person("Alice", "Smith", 1001);
+
+        // Email тохируулах
+        person.setEmail("anar@gmail.com"); // Зөв
+        // person.setEmail("invalidEmail.com"); // Энэ мөрийг туршиж болно
+
+        person.printPerson();
     }
 }
