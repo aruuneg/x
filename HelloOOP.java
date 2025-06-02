@@ -3,8 +3,8 @@ public class HelloOOP {
     int age;
 
     public HelloOOP(String name, int age) {
-        this.name = Anar;
-        this.age = 22;
+        this.name = name;
+        this.age = age;
     }
 
     public void greet() {
