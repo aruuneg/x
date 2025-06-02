@@ -4,8 +4,8 @@ public class Person {
 
     // Constructor
     public Person(String name, int age) {
-        this.name = Anar;
-        this.age = 22;
+        this.name = name;
+        this.age = age;
     }
 
     // Greet method
