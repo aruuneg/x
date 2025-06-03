@@ -1,11 +1,12 @@
-class Main {
+public class Main {
     public static void main(String[] args) {
-        Person person = new Person("Alice", "Smith", 1001);
+        Car car = new Car("Toyota", "Camry", 2022, 15.1);
+        Truck truck = new Truck("Ford", "F-150", 2021, 1.5);
 
-        // Email тохируулах
-        person.setEmail("anar@gmail.com"); // Зөв
-        // person.setEmail("invalidEmail.com"); // Энэ мөрийг туршиж болно
+        System.out.println("Car Details:");
+        car.displayDetails();
 
-        person.printPerson();
+        System.out.println("\nTruck Details:");
+        truck.displayDetails();
     }
 }
